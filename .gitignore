@@ -3,6 +3,7 @@ out/
 .idea
 .HW4.iml
 *.iml
+.out
 !**/src/main/**/out/
 !**/src/test/**/out/
 .kotlin
