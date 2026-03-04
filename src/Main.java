@@ -3,10 +3,15 @@ public class Main {
 
         System.out.println("Hello SkyPro!");
 
-
-
-
-
-
+        int age = 17;
+        if (age >= 18) {
+            System.out.println("Ты можешь водить");
         }
+
+        if (age < 18) {
+            System.out.println("Ты не можешь водить");
+        }
+
+
     }
+}
