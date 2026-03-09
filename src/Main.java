@@ -28,50 +28,45 @@ public class Main {
 
         // Задание номер 3
 
-        int speed = 75;
+        int speed = 120;
 
-        if (speed <= 60) {
-            System.out.println("Привышения скороски нету " + speed + " штраф платить не надо!");
-        } else if (speed > 60) {
-            System.out.println("Нужно оплатить штраф , за превышение скорости " + speed + " !");
+        if (speed > 60) {
+            System.out.println("Нужно оплатить штраф, за превышение скорости!");
+        } else {
+            System.out.println("Превышения скорости нет, штраф платить не надо!");
         }
         // Задача номер 4
-        int years = 3;
+        int years = 19;
 
         if (years >= 2 && years <= 6) {
-
-            System.out.println("Если возраст человека равен " + years + " , то ему нужно ходить в Сад!");
+            System.out.println("Ему нужно ходить в Сад!");
+        } else {
+            System.out.println("Ему не нужно ходить в сад !");
         }
-        int years1 = 12;
-
-        if (years1 >= 7 && years1 <= 17) {
-            System.out.println("Если возраст человека равен " + years1 + " , то ему нужно ходить в Школу");
+        if (years >= 7 && years <= 17) {
+            System.out.println("Ему нужно ходить в Школу!");
+        } else {
+            System.out.println("Ему не нужно ходить в Школу");
         }
-        int years3 = 22;
-
-        if (years3 >= 18 && years3 <= 24) {
-            System.out.println("Если возраст человека равен " + years3 + " , то его место в Университете");
+        if (years >= 18 && years <= 24) {
+            System.out.println("Его место в Университете");
+        } else {
+            System.out.println("Ему не нужно ходить в Универ.");
         }
-        int years4 = 33;
-
-        if (years4 > 24) {
-            System.out.println("Если возраст человека равен " + years4 + ", то ему нужно ходить на работу!");
+        if (years > 24) {
+            System.out.println("Он уже ходить на работу .");
         }
         // Задание номер 5
-        int kidYears = 4;
+        int kidYears = 16;
 
-        if (kidYears < 5) {
-            System.out.println("Если возраст ребенка равен " + kidYears + " , то ему нельзя кататься на аттракционе");
+        if (kidYears <= 5) {
+            System.out.println("Если возраст ребенка равен, то ему нельзя кататься на аттракционе");
         }
-        int kidYears1 = 12;
-
-        if (kidYears1 > 5 && kidYears1 <= 14) {
-            System.out.println("Если возраст ребенка равен " + kidYears1 + " то можно кататься на аттракционе в сопровождении зрослого ");
+        if (kidYears > 5 && kidYears <= 14) {
+            System.out.println("Если возраст ребенка равен то можно кататься на аттракционе в сопровождении зрослого ");
         }
-        int kidYears2 = 19;
-
-        if (kidYears2 >= 14) {
-            System.out.println("Если возраст ребенка равен " + kidYears2 + " , то ему, можно кататься на аттракционе без сопровождения взрослого");
+        if (kidYears >= 14) {
+            System.out.println("Если возраст ребенка равен , то ему, можно кататься на аттракционе без сопровождения взрослого");
         }
         // Задача номер 6
         int capacityPassengers = 102;
@@ -93,15 +88,15 @@ public class Main {
         int three = 3;
         if (one >= two && one >= three) {
             System.out.println("Первое число самое большое");
-        } else if (two >= one && two >= three ){
+        } else if (two >= one && two >= three) {
             System.out.println("Второе число самое большое");
         } else {
             System.out.println("Третье число самое большое");
         }
 
-        }
-
     }
+
+}
 
 
 
